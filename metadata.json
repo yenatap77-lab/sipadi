@@ -1,0 +1,8 @@
+{
+  "name": "Remix SIPADI - Sistem Informasi Pertanian dan Administrasi Digital",
+  "description": "Aplikasi Sistem Informasi Pertanian dan Administrasi Digital dengan integrasi Google Drive, Google Sheets Apps Script, data teknis bidang pertanian, pengadaan PBJ, dan proposal kelompok tani.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

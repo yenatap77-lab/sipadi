@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="gradBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#143820"/>
+      <stop offset="50%" stop-color="#1a472a"/>
+      <stop offset="100%" stop-color="#2c6e49"/>
+    </linearGradient>
+    <linearGradient id="gradPadi" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="50%" stop-color="#eab308"/>
+      <stop offset="100%" stop-color="#ca8a04"/>
+    </linearGradient>
+    <linearGradient id="gradLeaf" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#86efac"/>
+      <stop offset="100%" stop-color="#22c55e"/>
+    </linearGradient>
+  </defs>
+  <!-- Background with rounded squircle -->
+  <rect width="512" height="512" rx="128" fill="url(#gradBg)"/>
+  
+  <!-- Subtle inner glow ring -->
+  <circle cx="256" cy="256" r="210" fill="none" stroke="#ca8a04" stroke-width="4" stroke-opacity="0.3" stroke-dasharray="8 6"/>
+
+  <!-- Document Base in background -->
+  <path d="M190 120 H300 L350 170 V380 H190 Z" fill="#ffffff" fill-opacity="0.12" stroke="#ffffff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M300 120 V170 H350" fill="none" stroke="#ffffff" stroke-width="6"/>
+
+  <!-- Left Rice Stalk (Bulir Padi) -->
+  <g fill="url(#gradPadi)" stroke="#713f12" stroke-width="2">
+    <ellipse cx="210" cy="180" rx="18" ry="10" transform="rotate(-35 210 180)"/>
+    <ellipse cx="190" cy="215" rx="20" ry="11" transform="rotate(-25 190 215)"/>
+    <ellipse cx="180" cy="255" rx="22" ry="12" transform="rotate(-15 180 255)"/>
+    <ellipse cx="180" cy="295" rx="22" ry="12" transform="rotate(5 180 295)"/>
+    <ellipse cx="190" cy="335" rx="20" ry="11" transform="rotate(25 190 335)"/>
+  </g>
+
+  <!-- Right Rice Stalk (Bulir Padi) -->
+  <g fill="url(#gradPadi)" stroke="#713f12" stroke-width="2">
+    <ellipse cx="302" cy="180" rx="18" ry="10" transform="rotate(35 302 180)"/>
+    <ellipse cx="322" cy="215" rx="20" ry="11" transform="rotate(25 322 215)"/>
+    <ellipse cx="332" cy="255" rx="22" ry="12" transform="rotate(15 332 255)"/>
+    <ellipse cx="332" cy="295" rx="22" ry="12" transform="rotate(-5 332 295)"/>
+    <ellipse cx="322" cy="335" rx="20" ry="11" transform="rotate(-25 322 335)"/>
+  </g>
+
+  <!-- Central Stem & Sprout -->
+  <path d="M256 140 C256 220 256 360 256 410" fill="none" stroke="url(#gradPadi)" stroke-width="12" stroke-linecap="round"/>
+
+  <!-- Top Grain -->
+  <ellipse cx="256" cy="140" rx="14" ry="22" fill="url(#gradPadi)" stroke="#713f12" stroke-width="2"/>
+
+  <!-- Central Digital / Admin Shield -->
+  <circle cx="256" cy="290" r="42" fill="#143820" stroke="#facc15" stroke-width="5"/>
+  <path d="M242 290 L252 300 L272 278" fill="none" stroke="#4ade80" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Emblem Banner text -->
+  <text x="256" y="445" font-family="'Plus Jakarta Sans', sans-serif" font-size="34" font-weight="900" fill="#facc15" text-anchor="middle" letter-spacing="4">SIPADI</text>
+</svg>

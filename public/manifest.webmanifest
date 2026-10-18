@@ -1,0 +1,27 @@
+{
+  "id": "/",
+  "name": "SIPADI - Sistem Informasi Pertanian & Administrasi Digital",
+  "short_name": "SIPADI",
+  "description": "Aplikasi Sistem Informasi Pertanian dan Administrasi Digital dengan integrasi Google Drive, Google Sheets Apps Script, data teknis bidang pertanian, pengadaan PBJ, dan proposal kelompok tani.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#143820",
+  "theme_color": "#1a472a",
+  "categories": ["government", "productivity", "agriculture", "utilities"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}
